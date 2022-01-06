@@ -1,8 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .main-nav {
   margin: 0;
   display: flex;
   justify-content: space-around;
   background-color: rgb(199, 245, 31);
+  padding: 1.5rem;
 }
 
 div.nav a {
@@ -12,18 +18,61 @@ div.nav a {
   padding: 5px;
 }
 
+input {
+  font-size: 23px;
+  text-align: center;
+}
+
+i {
+  font-size: 1.7rem;
+  padding-left: 1rem;
+}
+
 div.nav input {
-  height: 25px;
+  height: 35px;
   width: 300px;
 }
 
+.nav-Watchlist a {
+  padding-left: 5px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.header1 h2 {
+  font-size: 1.7 rem;
+  padding: 0.5rem;
+  margin: 0;
+}
+section {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.container1 {
   width: 1330px;
   display: flex;
+  padding: 0;
+  margin: 0;
   padding-left: 0;
   border-radius: 5px;
   background-color: cadetblue;
 }
+
+.container2 {
+  border-color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 200px;
+  background-color: blue;
+  padding-left: 20px;
+}
+
 .movie {
   padding: 10px;
 }

@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie APP</title>
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/342641273d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <ul class="main-nav">
@@ -15,32 +19,38 @@
     <div class="nav Actress"><a href="#">My Fav. Actress/Actors</a></div>
     <div class="nav Search">
       <input type="text" placeholder="Search Movie" />
-      <label class="searchLabel" for="search"></label>
+      <i class="fas fa-arrow-up"></i>
     </div>
-    <div class="nav Watchlist"><a href="#">Watchlist</a></div>
+    <div class="nav-Watchlist">
+      <a href="#">Watchlist</a><i class="far fa-user"></i>
+    </div>
+    <div></div>
   </ul>
 
   <body>
     <span class="header1"> <h2>UP TO NEXT</h2></span>
-    <ul class="container">
-      <div class="movie 1">
-        <img src="img/dontlookup.png" alt="" />
-        <div class="movie-info">
-          <h3>Do Not Look Up</h3>
-          <span>Score:7.2</span>
+    <section class="container">
+      <ul class="container1">
+        <div class="movie 1">
+          <img src="img/dontlookup.png" alt="" />
+          <div class="movie-info">
+            <h3>Do Not Look Up</h3>
+            <span>Score:7.2</span>
+          </div>
         </div>
-      </div>
-      <div class="movie 2">
-        <img src="img/matrix.jpg" alt="" />
-        <div class="movie-info">
-          <h3>Matrix Ressurection</h3>
-          <span>Score:7.6</span>
+        <div class="movie 2">
+          <img src="img/matrix.jpg" alt="" />
+          <div class="movie-info">
+            <h3>Matrix Ressurection</h3>
+            <span>Score:7.6</span>
+          </div>
         </div>
-      </div>
-    </ul>
+      </ul>
+      <ul class="container2"></ul>
+    </section>
 
-    <section class="fromYourwatchlist">
-      <div></div>
+    <section class="review">
+      <div><h2>Review</h2></div>
     </section>
   </body>
 </html>
