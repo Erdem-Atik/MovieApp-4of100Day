@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("img/blackpattern.JPG");
+  background-image: url("img/back-ground.png");
 }
 
 .main-nav {
@@ -31,7 +31,7 @@ input {
 
 i {
   font-size: 1.7rem;
-  margin-left: 1rem;
+
   color: white;
 }
 
@@ -51,6 +51,7 @@ div.nav input {
 .header1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-left: 5rem;
 }
 
 .header1 h2 {
@@ -70,28 +71,23 @@ section {
 .container {
   display: flex;
   padding: 0;
-  margin: 0;
+  padding: 0;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  justify-content: space-between;
 }
 
 .container1 {
-  width: 1330px;
+  width: 1100px;
+  height: 650px;
   display: flex;
   padding: 0;
   margin: 0;
-  padding-left: 0;
+  justify-content: center;
   border-radius: 5px;
-  background-color: cadetblue;
-}
 
-.container2 {
-  border-color: white;
-  border-radius: 5px;
-  margin-left: 10px;
-  width: 750px;
-  height: 500px;
-  background-color: blue;
-  padding-left: 20px;
-  margin: 0;
+  align-items: center;
+  background-color: cadetblue;
 }
 
 .movie {
@@ -102,4 +98,25 @@ section {
   color: white;
   display: flex;
   justify-content: space-between;
+}
+
+.container2 {
+  border-radius: 5px;
+  margin-top: 0;
+  width: 85%;
+  height: 650px;
+  background-color: blue;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.serial {
+  color: white;
+  border: 10px solid rgb(128, 204, 51);
+  border-style: double;
+}
+
+img:hover {
+  opacity: 0.7;
 }
